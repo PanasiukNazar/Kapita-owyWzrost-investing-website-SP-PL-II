@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>KapitałowyWzrost</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid sticky-top px-0">
+            <div
+                class="position-absolute bg-dark"
+                style="left: 0; top: 0; width: 100%; height: 100%"
+            ></div>
+            <div class="container px-0">
+                <nav
+                    class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4"
+                >
+                    <a href="index.html" class="navbar-brand p-0">
+                        <h1 class="text-primary m-0">
+                            <i class="fas fa-donate me-3"></i>KapitałowyWzrost
+                        </h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0">
+                            <a
+                                href="index.html"
+                                class="nav-item nav-link active"
+                                >Strona główna</a
+                            >
+                            <a href="index.html#about" class="nav-item nav-link"
+                                >O nas</a
+                            >
+                            <a
+                                href="index.html#service"
+                                class="nav-item nav-link"
+                                >Usługi</a
+                            >
+                            <a href="index.html#team" class="nav-item nav-link"
+                                >Zespół</a
+                            >
+                            <a
+                                href="index.html#contact"
+                                class="nav-item nav-link"
+                                >Kontakt</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div
+            class="modal fade"
+            id="searchModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title mb-0" id="exampleModalLabel">
+                            Search by keyword
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input
+                                type="search"
+                                class="form-control p-3"
+                                placeholder="keywords"
+                                aria-describedby="search-icon-1"
+                            />
+                            <span
+                                id="search-icon-1"
+                                class="input-group-text p-3"
+                                ><i class="fa fa-search"></i
+                            ></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- Carousel Start -->
+        <div class="header-carousel owl-carousel">
+            <div class="header-carousel-item">
+                <div class="header-carousel-item-img-1">
+                    <img
+                        src="img/carousel-1.jpg"
+                        class="img-fluid w-100"
+                        alt="Image"
+                    />
+                </div>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-inner text-start p-3">
+                        <h1
+                            class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                            data-animation="fadeInUp"
+                            data-delay="1.3s"
+                            style="animation-delay: 1.3s"
+                        >
+                            Wybór Platformy Inwestycyjnej
+                        </h1>
+                        <p
+                            class="mb-5 fs-5 fadeInUp animate__animated"
+                            data-animation="fadeInUp"
+                            data-delay="1.5s"
+                            style="animation-delay: 1.5s"
+                        >
+                            Dowiedz się, jak nasza platforma inwestycyjna może
+                            usprawnić Twoje decyzje finansowe. Nasze narzędzia i
+                            funkcje są zaprojektowane, aby pomóc Ci w pełni
+                            wykorzystać potencjał inwestycyjny i osiągnąć
+                            zamierzone cele.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel-item mx-auto">
+                <div class="header-carousel-item-img-2">
+                    <img
+                        src="img/carousel-2.jpg"
+                        class="img-fluid w-100"
+                        alt="Image"
+                    />
+                </div>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-inner text-center p-3">
+                        <h1 class="display-1 text-capitalize text-white mb-4">
+                            Korzyści Rejestracji
+                        </h1>
+                        <p class="mb-5 fs-5">
+                            Zarejestruj się na naszej platformie, aby uzyskać
+                            dostęp do ekskluzywnych funkcji i narzędzi
+                            inwestycyjnych. Rejestracja otwiera drzwi do
+                            zaawansowanych analiz, personalizowanych
+                            rekomendacji oraz wielu innych korzyści.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel-item">
+                <div class="header-carousel-item-img-3">
+                    <img
+                        src="img/carousel-3.jpg"
+                        class="img-fluid w-100"
+                        alt="Image"
+                    />
+                </div>
+                <div class="carousel-caption">
+                    <div class="carousel-caption-inner text-end p-3">
+                        <h1 class="display-1 text-capitalize text-white mb-4">
+                            Optymalizacja Portfela
+                        </h1>
+                        <p class="mb-5 fs-5">
+                            Odkryj, jak nasza platforma może pomóc Ci w
+                            optymalizacji Twojego portfela inwestycyjnego.
+                            Dzięki naszym zaawansowanym narzędziom, będziesz
+                            mógł śledzić i zarządzać swoimi inwestycjami w
+                            sposób bardziej efektywny.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div
+                        class="col-lg-6 col-xl-5 wow fadeInLeft"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="about-img">
+                            <img
+                                src="img/about-3.png"
+                                class="img-fluid w-100 rounded-top bg-white"
+                                alt="Image"
+                            />
+                            <img
+                                src="img/about-2.jpg"
+                                class="img-fluid w-100 rounded-bottom"
+                                alt="Image"
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-7 wow fadeInRight"
+                        data-wow-delay="0.3s"
+                    >
+                        <h4 class="text-primary">O Nas</h4>
+                        <h1 class="display-5 mb-4">
+                            Nasza Platforma Inwestycyjna
+                        </h1>
+                        <p class="text ps-4 mb-4">
+                            Jesteśmy wiodącą platformą inwestycyjną, która
+                            oferuje innowacyjne rozwiązania dla inwestorów na
+                            każdym poziomie zaawansowania. Nasza platforma
+                            została stworzona, aby dostarczyć Ci narzędzi i
+                            zasobów potrzebnych do podejmowania świadomych
+                            decyzji inwestycyjnych. Dzięki łatwej rejestracji i
+                            zaawansowanym funkcjom, wspieramy Cię na każdym
+                            etapie Twojej drogi inwestycyjnej. Naszym celem jest
+                            umożliwienie Ci osiągnięcia sukcesu finansowego
+                            poprzez proste i efektywne zarządzanie Twoimi
+                            inwestycjami.
+                        </p>
+                        <div class="row g-4 justify-content-between mb-5">
+                            <div class="col-lg-6 col-xl-5">
+                                <p class="text-dark">
+                                    <i
+                                        class="fas fa-check-circle text-primary me-1"
+                                    ></i>
+                                    Zaawansowane Narzędzia Analityczne
+                                </p>
+                                <p class="text-dark mb-0">
+                                    <i
+                                        class="fas fa-check-circle text-primary me-1"
+                                    ></i>
+                                    Łatwa Rejestracja i Integracja
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-xl-7">
+                                <p class="text-dark">
+                                    <i
+                                        class="fas fa-check-circle text-primary me-1"
+                                    ></i>
+                                    Personalizowane Rekomendacje Inwestycyjne
+                                </p>
+                                <p class="text-dark mb-0">
+                                    <i
+                                        class="fas fa-check-circle text-primary me-1"
+                                    ></i>
+                                    Wsparcie Ekspertów i Doradców
+                                </p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="row g-4 text-center align-items-center justify-content-center"
+                        >
+                            <div class="col-sm-4">
+                                <div class="bg-primary rounded p-4">
+                                    <div
+                                        class="d-flex align-items-center justify-content-center"
+                                    >
+                                        <span
+                                            class="counter-value fs-1 fw-bold text-dark"
+                                            data-toggle="counter-up"
+                                            >32</span
+                                        >
+                                        <h4
+                                            class="text-dark fs-1 mb-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 25px;
+                                            "
+                                        >
+                                            +
+                                        </h4>
+                                    </div>
+                                    <div
+                                        class="w-100 d-flex align-items-center justify-content-center"
+                                    >
+                                        <p class="text-white mb-0">
+                                            Zakończone Projekty
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="bg-dark rounded p-4">
+                                    <div
+                                        class="d-flex align-items-center justify-content-center"
+                                    >
+                                        <span
+                                            class="counter-value fs-1 fw-bold text-white"
+                                            data-toggle="counter-up"
+                                            >21</span
+                                        >
+                                        <h4
+                                            class="text-white fs-1 mb-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 25px;
+                                            "
+                                        ></h4>
+                                    </div>
+                                    <div
+                                        class="w-100 d-flex align-items-center justify-content-center"
+                                    >
+                                        <p class="mb-0">Lata Doświadczenia</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="bg-primary rounded p-4">
+                                    <div
+                                        class="d-flex align-items-center justify-content-center"
+                                    >
+                                        <span
+                                            class="counter-value fs-1 fw-bold text-dark"
+                                            data-toggle="counter-up"
+                                            >97</span
+                                        >
+                                        <h4
+                                            class="text-dark fs-1 mb-0"
+                                            style="
+                                                font-weight: 600;
+                                                font-size: 25px;
+                                            "
+                                        >
+                                            +
+                                        </h4>
+                                    </div>
+                                    <div
+                                        class="w-100 d-flex align-items-center justify-content-center"
+                                    >
+                                        <p class="text-white mb-0">
+                                            Członkowie Zespołu
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Services Start -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Przegląd Naszych Usług</h4>
+                    <h1 class="display-4">Odkryj Nasze Usługi Inwestycyjne</h1>
+                    <p>
+                        Nasza platforma inwestycyjna oferuje szereg usług, które
+                        pomogą Ci w osiągnięciu finansowego sukcesu. Od łatwej
+                        rejestracji po zaawansowane narzędzia analityczne –
+                        nasze usługi są dostosowane do Twoich potrzeb. Z naszą
+                        pomocą możesz podejmować świadome decyzje inwestycyjne i
+                        maksymalizować swoje zyski.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center text-center">
+                    <div
+                        class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item bg-light rounded">
+                            <div class="service-img">
+                                <img
+                                    src="img/service-1.jpg"
+                                    class="img-fluid w-100 rounded-top"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <div class="service-content-inner">
+                                    <a
+                                        href="#"
+                                        class="h4 mb-4 d-inline-flex text-start"
+                                        ><i
+                                            class="fas fa-donate fa-2x me-2"
+                                        ></i>
+                                        Narzędzia analityczne</a
+                                    >
+                                    <p class="mb-4">
+                                        Nasza platforma oferuje nowoczesne
+                                        narzędzia analityczne, które pozwalają
+                                        na dokładną ocenę i optymalizację Twoich
+                                        inwestycji.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item bg-light rounded">
+                            <div class="service-img">
+                                <img
+                                    src="img/service-2.jpg"
+                                    class="img-fluid w-100 rounded-top"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <div class="service-content-inner">
+                                    <a
+                                        href="#"
+                                        class="h4 mb-4 d-inline-flex text-start"
+                                        ><i
+                                            class="fas fa-donate fa-2x me-2"
+                                        ></i>
+                                        Łatwa Rejestracja</a
+                                    >
+                                    <p class="mb-4">
+                                        Proces rejestracji na naszej platformie
+                                        jest szybki i prosty, dzięki czemu
+                                        możesz od razu rozpocząć inwestowanie
+                                        bez zbędnych formalności.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item bg-light rounded">
+                            <div class="service-img">
+                                <img
+                                    src="img/service-4.jpg"
+                                    class="img-fluid w-100 rounded-top"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <div class="service-content-inner">
+                                    <a
+                                        href="#"
+                                        class="h4 mb-4 d-inline-flex text-start"
+                                        ><i
+                                            class="fas fa-donate fa-2x me-2"
+                                        ></i>
+                                        Personalizowane Rekomendacje</a
+                                    >
+                                    <p class="mb-4">
+                                        Otrzymasz dostosowane rekomendacje
+                                        inwestycyjne na podstawie analizy
+                                        Twojego portfela i celów finansowych.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="service-item bg-light rounded">
+                            <div class="service-img">
+                                <img
+                                    src="img/service-3.jpg"
+                                    class="img-fluid w-100 rounded-top"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <div class="service-content-inner">
+                                    <a
+                                        href="#"
+                                        class="h4 mb-4 d-inline-flex text-start"
+                                        ><i
+                                            class="fas fa-donate fa-2x me-2"
+                                        ></i>
+                                        Wsparcie Ekspertów</a
+                                    >
+                                    <p class="mb-4">
+                                        Skorzystaj z pomocy naszych ekspertów,
+                                        którzy są dostępni, aby udzielić Ci
+                                        fachowej pomocy i odpowiedzi na Twoje
+                                        pytania inwestycyjne.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- Project Start -->
+        <div class="container-fluid project">
+            <div class="container">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Nasze Projekty</h4>
+                    <h1 class="display-4">Innowacyjne Projekty Inwestycyjne</h1>
+                    <p>
+                        W naszej platformie inwestycyjnej realizujemy szereg
+                        projektów, które mają na celu poprawę efektywności
+                        inwestycji i osiągnięcie najlepszych wyników
+                        finansowych. Nasze projekty są zaprojektowane z myślą o
+                        maksymalizacji Twojego sukcesu inwestycyjnego. Oferujemy
+                        różnorodne rozwiązania, które odpowiadają na potrzeby
+                        inwestorów na każdym etapie ich ścieżki inwestycyjnej.
+                    </p>
+                </div>
+                <div
+                    class="project-carousel owl-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div
+                        class="project-item h-100 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="project-img">
+                            <img
+                                src="img/projects-1.jpg"
+                                class="img-fluid w-100 rounded"
+                                alt="Image"
+                            />
+                        </div>
+                        <div class="project-content bg-light rounded p-4">
+                            <div class="project-content-inner">
+                                <div class="project-icon mb-3">
+                                    <i
+                                        class="fas fa-chart-line fa-4x text-primary"
+                                    ></i>
+                                </div>
+
+                                <a href="#" class="h4"
+                                    >Zaawansowana Platforma Analiz
+                                    Inwestycyjnych dla Profesjonalistów</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="project-item h-100 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="project-img">
+                            <img
+                                src="img/projects-2.jpg"
+                                class="img-fluid w-100 rounded"
+                                alt="Image"
+                            />
+                        </div>
+                        <div class="project-content bg-light rounded p-4">
+                            <div class="project-content-inner">
+                                <div class="project-icon mb-3">
+                                    <i
+                                        class="fas fa-signal fa-4x text-primary"
+                                    ></i>
+                                </div>
+
+                                <a href="#" class="h4"
+                                    >Innowacyjny System Rejestracji Użytkowników
+                                    na Platformie</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-item h-100">
+                        <div class="project-img">
+                            <img
+                                src="img/projects-3.jpg"
+                                class="img-fluid w-100 rounded"
+                                alt="Image"
+                            />
+                        </div>
+                        <div class="project-content bg-light rounded p-4">
+                            <div class="project-content-inner">
+                                <div class="project-icon mb-3">
+                                    <i
+                                        class="fas fa-signal fa-4x text-primary"
+                                    ></i>
+                                </div>
+
+                                <a href="#" class="h4"
+                                    >Projekt Optymalizacji Portfela
+                                    Inwestycyjnego dla Maksymalnych Zysków</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog pb-5">
+            <div class="container pb-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Nasz Najnowszy Blog</h4>
+                    <h1 class="display-4">Najnowsze Artykuły o Inwestowaniu</h1>
+                    <p>
+                        Nasza platforma inwestycyjna regularnie publikuje
+                        artykuły na temat najnowszych trendów, analiz oraz
+                        strategii inwestycyjnych. Dzięki naszym blogom możesz
+                        być na bieżąco z najważniejszymi informacjami i
+                        wykorzystać je do optymalizacji swoich decyzji
+                        inwestycyjnych. Zapoznaj się z naszymi najnowszymi
+                        wpisami i poszerz swoją wiedzę o inwestowaniu.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="blog-item bg-light rounded p-4"
+                            style="background-image: url(img/bg.png)"
+                        >
+                            <div class="mb-4">
+                                <h4 class="text-primary mb-2">Inwestycje</h4>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-0">
+                                        <span class="text-dark fw-bold"
+                                            >Data:</span
+                                        >
+                                        Mar 14, 2024
+                                    </p>
+                                    <p class="mb-0">
+                                        <span class="text-dark fw-bold"
+                                            >Autor:</span
+                                        >
+                                        Makr B.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="project-img">
+                                <img
+                                    src="img/blog-1.jpg"
+                                    class="img-fluid w-100 rounded"
+                                    alt="Obraz"
+                                />
+                                <div class="blog-plus-icon">
+                                    <a
+                                        href="img/blog-1.jpg"
+                                        data-lightbox="blog-1"
+                                        class="btn btn-primary btn-md-square rounded-pill"
+                                    >
+                                        <i class="fas fa-plus fa-1x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="my-4">
+                                <a href="#" class="h4"
+                                    >Jak Nasza Platforma Inwestycyjna Zmienia
+                                    Sposób Inwestowania</a
+                                >
+                                <p>
+                                    Dowiedz się, w jaki sposób nasza innowacyjna
+                                    platforma inwestycyjna wpływa na efektywność
+                                    inwestycji i jakie korzyści przynosi
+                                    użytkownikom.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="blog-item bg-light rounded p-4"
+                            style="background-image: url(img/bg.png)"
+                        >
+                            <div class="mb-4">
+                                <h4 class="text-primary mb-2">Biznes</h4>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-0">
+                                        <span class="text-dark fw-bold"
+                                            >Data:</span
+                                        >
+                                        Apr 04, 2024
+                                    </p>
+                                    <p class="mb-0">
+                                        <span class="text-dark fw-bold"
+                                            >Autor:</span
+                                        >
+                                        Mark D.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="project-img">
+                                <img
+                                    src="img/blog-2.jpg"
+                                    class="img-fluid w-100 rounded"
+                                    alt="Obraz"
+                                />
+                                <div class="blog-plus-icon">
+                                    <a
+                                        href="img/blog-2.jpg"
+                                        data-lightbox="blog-2"
+                                        class="btn btn-primary btn-md-square rounded-pill"
+                                    >
+                                        <i class="fas fa-plus fa-1x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="my-4">
+                                <a href="#" class="h4"
+                                    >Korzyści z Rejestracji na Naszej Platformie
+                                    Inwestycyjnej</a
+                                >
+                                <p>
+                                    Poznaj zalety szybkiej i prostej rejestracji
+                                    na naszej platformie oraz jakie funkcje i
+                                    usługi są dostępne dla zarejestrowanych
+                                    użytkowników.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="blog-item bg-light rounded p-4"
+                            style="background-image: url(img/bg.png)"
+                        >
+                            <div class="mb-4">
+                                <h4 class="text-primary mb-2">Konsulting</h4>
+                                <div class="d-flex justify-content-between">
+                                    <p class="mb-0">
+                                        <span class="text-dark fw-bold"
+                                            >Data:</span
+                                        >
+                                        Jun 17, 2024
+                                    </p>
+                                    <p class="mb-0">
+                                        <span class="text-dark fw-bold"
+                                            >Autor:</span
+                                        >
+                                        Anna T.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="project-img">
+                                <img
+                                    src="img/blog-3.jpg"
+                                    class="img-fluid w-100 rounded"
+                                    alt="Obraz"
+                                />
+                                <div class="blog-plus-icon">
+                                    <a
+                                        href="img/blog-3.jpg"
+                                        data-lightbox="blog-3"
+                                        class="btn btn-primary btn-md-square rounded-pill"
+                                    >
+                                        <i class="fas fa-plus fa-1x"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="my-4">
+                                <a href="#" class="h4"
+                                    >Najlepsze Strategie Inwestycyjne w 2024
+                                    Roku: Co Należy Wiedzieć</a
+                                >
+                                <p>
+                                    Przeczytaj o najnowszych trendach i
+                                    strategiach inwestycyjnych, które mogą pomóc
+                                    Ci w osiągnięciu sukcesu finansowego w
+                                    nadchodzących miesiącach.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog End -->
+
+        <!-- Team Start -->
+        <div class="container-fluid team pb-5">
+            <div class="container pb-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Nasz Zespół</h4>
+                    <h1 class="display-4">
+                        Poznaj Naszych Ekspertów Inwestycyjnych
+                    </h1>
+                    <p>
+                        Nasza platforma inwestycyjna jest wspierana przez zespół
+                        doświadczonych profesjonalistów, którzy są zaangażowani
+                        w dostarczanie najlepszych usług i rozwiązań dla naszych
+                        użytkowników. Każdy z naszych ekspertów wnosi unikalne
+                        umiejętności i wiedzę, aby zapewnić, że rejestracja na
+                        naszej platformie i inwestowanie z nami jest prostsze i
+                        bardziej efektywne. Poznaj naszych kluczowych członków
+                        zespołu.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="team-item rounded">
+                            <div class="team-img">
+                                <img
+                                    src="img/team-1.jpg"
+                                    class="img-fluid w-100 rounded-top"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div
+                                class="team-content bg-dark text-center rounded-bottom p-4"
+                            >
+                                <div class="team-content-inner rounded-bottom">
+                                    <h4 class="text-white">Anna Nowak</h4>
+                                    <p class="text-muted mb-0">
+                                        Doradca Finansowy
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item rounded">
+                            <div class="team-img">
+                                <img
+                                    src="img/team-2.jpg"
+                                    class="img-fluid w-100 rounded-top"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div
+                                class="team-content bg-dark text-center rounded-bottom p-4"
+                            >
+                                <div class="team-content-inner rounded-bottom">
+                                    <h4 class="text-white">Jan Kowalski</h4>
+                                    <p class="text-muted mb-0">
+                                        Ekspert ds. Inwestycji
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item rounded">
+                            <div class="team-img">
+                                <img
+                                    src="img/team-3.jpg"
+                                    class="img-fluid w-100 rounded-top"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div
+                                class="team-content bg-dark text-center rounded-bottom p-4"
+                            >
+                                <div class="team-content-inner rounded-bottom">
+                                    <h4 class="text-white">Katarzyna Wójcik</h4>
+                                    <p class="text-muted mb-0">
+                                        Menadżer ds. Obsługi Klienta
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item rounded">
+                            <div class="team-img">
+                                <img
+                                    src="img/team-4.jpg"
+                                    class="img-fluid w-100 rounded-top"
+                                    alt="Image"
+                                />
+                            </div>
+                            <div
+                                class="team-content bg-dark text-center rounded-bottom p-4"
+                            >
+                                <div class="team-content-inner rounded-bottom">
+                                    <h4 class="text-white">Marek Zieliński</h4>
+                                    <p class="text-muted mb-0">
+                                        Specjalista ds. Analiz Rynkowych
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-4 align-items-center">
+                    <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="h-100 rounded">
+                            <h4 class="text-primary">Opinie Klientów</h4>
+                            <h1 class="display-4 mb-4">
+                                Co Mówią Nasi Klienci o Platformie Inwestycyjnej
+                            </h1>
+                            <p class="mb-4">
+                                Nasza platforma inwestycyjna zdobywa uznanie
+                                wśród klientów dzięki swojemu profesjonalizmowi
+                                i innowacyjnym rozwiązaniom. Wierzymy, że opinie
+                                naszych użytkowników są najlepszym świadectwem
+                                naszej efektywności i jakości usług. Przeczytaj,
+                                co nasi klienci mówią o rejestracji i
+                                doświadczeniach związanych z korzystaniem z
+                                naszej platformy inwestycyjnej.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-8">
+                        <div
+                            class="testimonial-carousel owl-carousel wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <div
+                                class="testimonial-item bg-white rounded p-4 wow fadeInUp"
+                                data-wow-delay="0.3s"
+                            >
+                                <div class="d-flex">
+                                    <div>
+                                        <i
+                                            class="fas fa-quote-left fa-3x text-dark me-3"
+                                        ></i>
+                                    </div>
+                                    <p class="mt-4">
+                                        "Rejestracja na tej platformie
+                                        inwestycyjnej była szybka i
+                                        bezproblemowa. Co najważniejsze,
+                                        oferowane narzędzia analityczne są
+                                        niezwykle zaawansowane, co pozwala mi
+                                        podejmować lepsze decyzje inwestycyjne.
+                                        Dzięki tej platformie mogę śledzić
+                                        najnowsze trendy i dostosowywać swoje
+                                        strategie w czasie rzeczywistym."
+                                    </p>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <div class="my-auto text-end">
+                                        <h5>Anna Kowalska</h5>
+                                        <p class="mb-0">Analityk Finansowy</p>
+                                    </div>
+                                    <div class="bg-white rounded-circle ms-3">
+                                        <img
+                                            src="img/testimonial-1.jpg"
+                                            class="rounded-circle p-2"
+                                            style="
+                                                width: 80px;
+                                                height: 80px;
+                                                border: 1px solid;
+                                                border-color: var(--bs-primary);
+                                            "
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="testimonial-item bg-white rounded p-4 wow fadeInUp"
+                                data-wow-delay="0.5s"
+                            >
+                                <div class="d-flex">
+                                    <div>
+                                        <i
+                                            class="fas fa-quote-left fa-3x text-dark me-3"
+                                        ></i>
+                                    </div>
+                                    <p class="mt-4">
+                                        "Jako doradca inwestycyjny, często
+                                        korzystam z różnych platform, ale ta
+                                        wyróżnia się na tle konkurencji.
+                                        Intuicyjny interfejs i wsparcie zespołu
+                                        obsługi klienta są doskonałe.
+                                        Rejestracja przebiegła sprawnie, a
+                                        funkcje oferowane przez platformę
+                                        znacząco ułatwiają moją pracę."
+                                    </p>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <div class="my-auto text-end">
+                                        <h5>Michał Nowak</h5>
+                                        <p class="mb-0">Doradca Inwestycyjny</p>
+                                    </div>
+                                    <div class="bg-white rounded-circle ms-3">
+                                        <img
+                                            src="img/testimonial-3.jpg"
+                                            class="rounded-circle p-2"
+                                            style="
+                                                width: 80px;
+                                                height: 80px;
+                                                border: 1px solid;
+                                                border-color: var(--bs-primary);
+                                            "
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="testimonial-item bg-white rounded p-4 wow fadeInUp"
+                                data-wow-delay="0.7s"
+                            >
+                                <div class="d-flex">
+                                    <div>
+                                        <i
+                                            class="fas fa-quote-left fa-3x text-dark me-3"
+                                        ></i>
+                                    </div>
+                                    <p class="mt-4">
+                                        "Platforma inwestycyjna, z której
+                                        korzystam, naprawdę zmieniła sposób, w
+                                        jaki zarządzam swoim portfelem
+                                        inwestycyjnym. Proces rejestracji był
+                                        prosty, a dostępne narzędzia analityczne
+                                        pozwoliły mi na precyzyjne śledzenie
+                                        wyników moich inwestycji. Polecam
+                                        każdemu, kto szuka profesjonalnego
+                                        wsparcia w inwestowaniu."
+                                    </p>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <div class="my-auto text-end">
+                                        <h5>Katarzyna Zielińska</h5>
+                                        <p class="mb-0">Menadżer Portfela</p>
+                                    </div>
+                                    <div class="bg-white rounded-circle ms-3">
+                                        <img
+                                            src="img/testimonial-2.jpg"
+                                            class="rounded-circle p-2"
+                                            style="
+                                                width: 80px;
+                                                height: 80px;
+                                                border: 1px solid;
+                                                border-color: var(--bs-primary);
+                                            "
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- FAQ Start -->
+        <div class="container-fluid faq py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="pb-5">
+                            <h4 class="text-primary">
+                                Najczęściej Zadawane Pytania
+                            </h4>
+                            <h1 class="display-4">
+                                FAQ - Najczęściej Zadawane Pytania o Naszą
+                                Platformę Inwestycyjną
+                            </h1>
+                        </div>
+                        <div
+                            class="accordion bg-light rounded p-4"
+                            id="accordionExample"
+                        >
+                            <div class="accordion-item border-0 mb-4">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button
+                                        class="accordion-button text-dark fs-5 fw-bold rounded-top"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseTOne"
+                                    >
+                                        Jak przebiega proces rejestracji na
+                                        platformie inwestycyjnej?
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseOne"
+                                    class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body my-2">
+                                        <h5>
+                                            Anna Kowalska, Analityk Finansowy
+                                        </h5>
+                                        <p>
+                                            Proces rejestracji na naszej
+                                            platformie jest prosty i intuicyjny.
+                                            Wystarczy przejść do sekcji
+                                            „Rejestracja” na naszej stronie
+                                            internetowej, wypełnić formularz z
+                                            podstawowymi danymi osobowymi oraz
+                                            zaakceptować regulamin. Po
+                                            zakończeniu procesu otrzymasz e-mail
+                                            z potwierdzeniem oraz instrukcjami
+                                            dotyczącymi pierwszego logowania.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-4">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button
+                                        class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo"
+                                    >
+                                        Czy mogę korzystać z platformy
+                                        inwestycyjnej bez rejestracji?
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseTwo"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body my-2">
+                                        <h5>
+                                            Michał Nowak, Doradca Inwestycyjny
+                                        </h5>
+                                        <p>
+                                            Aby uzyskać pełen dostęp do funkcji
+                                            naszej platformy inwestycyjnej,
+                                            rejestracja jest niezbędna.
+                                            Rejestracja pozwala na
+                                            personalizację doświadczeń
+                                            inwestycyjnych oraz korzystanie z
+                                            narzędzi analitycznych i wsparcia
+                                            ekspertów, które są dostępne tylko
+                                            dla zarejestrowanych użytkowników.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-4">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button
+                                        class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree"
+                                    >
+                                        Jakie dokumenty są potrzebne do
+                                        rejestracji na platformie?
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseThree"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body my-2">
+                                        <h5>
+                                            Katarzyna Zielińska, Menadżer
+                                            Portfela
+                                        </h5>
+                                        <p>
+                                            Do rejestracji na naszej platformie
+                                            będziesz potrzebować podstawowych
+                                            informacji osobowych oraz dokumentów
+                                            potwierdzających tożsamość, takich
+                                            jak dowód osobisty lub paszport. W
+                                            niektórych przypadkach mogą być
+                                            wymagane dodatkowe dokumenty
+                                            potwierdzające źródło dochodów lub
+                                            adres zamieszkania.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-0">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button
+                                        class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour"
+                                        aria-expanded="false"
+                                        aria-controls="collapseFour"
+                                    >
+                                        Gdzie mogę znaleźć pomoc, jeśli napotkam
+                                        problemy podczas korzystania z
+                                        platformy?
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseFour"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample"
+                                >
+                                    <div class="accordion-body my-2">
+                                        <h5>
+                                            Jakub Wiśniewski, Specjalista ds.
+                                            Obsługi Klienta
+                                        </h5>
+                                        <p>
+                                            Jeśli napotkasz jakiekolwiek
+                                            problemy podczas korzystania z
+                                            naszej platformy inwestycyjnej, nasz
+                                            zespół obsługi klienta jest do
+                                            Twojej dyspozycji. Możesz
+                                            skontaktować się z nami za
+                                            pośrednictwem czatu online, e-maila
+                                            lub telefonu. Jesteśmy tutaj, aby
+                                            pomóc i zapewnić wsparcie w każdej
+                                            sytuacji.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="faq-img RotateMoveRight rounded">
+                            <img
+                                src="img/faq-img.jpg"
+                                class="img-fluid rounded w-100"
+                                alt="Image"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQ End -->
+
+        <!-- Contact Start -->
+        <div class="container-fluid contact bg-light py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-12 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="contact-item">
+                            <div class="pb-5">
+                                <h4 class="text-primary">
+                                    Skontaktuj się z Nami
+                                </h4>
+                                <h1 class="display-4 mb-4">
+                                    Jesteśmy Tu, Aby Pomóc
+                                </h1>
+                                <p class="mb-0">
+                                    Masz pytania dotyczące naszej platformy
+                                    inwestycyjnej lub procesu rejestracji? Nasz
+                                    zespół jest gotowy, aby Ci pomóc! Skontaktuj
+                                    się z nami, a my zapewnimy Ci potrzebne
+                                    wsparcie i odpowiedzi na wszystkie pytania.
+                                    Niezależnie od tego, czy potrzebujesz pomocy
+                                    w rejestracji, czy masz pytania dotyczące
+                                    funkcji naszej platformy, jesteśmy tutaj,
+                                    aby zapewnić Ci najlepsze możliwe
+                                    doświadczenia inwestycyjne. Wypełnij
+                                    formularz kontaktowy poniżej lub skorzystaj
+                                    z dostępnych metod komunikacji, aby szybko i
+                                    efektywnie uzyskać pomoc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-12 wow fadeInRight"
+                        data-wow-delay="0.3s"
+                    >
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Twoje Imię"
+                                        />
+                                        <label for="name">Twoje Imię</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Twój Email"
+                                        />
+                                        <label for="email">Twój Email</label>
+                                        <div
+                                            id="result"
+                                            style="color: red; font-size: 12px"
+                                        ></div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="subject"
+                                            placeholder="Temat"
+                                        />
+                                        <label for="subject">Temat</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Wpisz wiadomość tutaj"
+                                            id="message"
+                                            style="height: 160px"
+                                        ></textarea>
+                                        <label for="message">Wiadomość</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        id="submit"
+                                        onclick="sendForm()"
+                                    >
+                                        Wyślij Wiadomość
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h4 class="text-white mb-4">
+                                    KapitałowyWzrost
+                                </h4>
+                                <p class="mb-3">
+                                    Witaj na naszej platformie inwestycyjnej!
+                                    Jesteśmy liderami w dostarczaniu
+                                    nowoczesnych rozwiązań inwestycyjnych, które
+                                    pomagają naszym użytkownikom osiągać ich
+                                    cele finansowe.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Odkryj</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i> Strona
+                                Główna</a
+                            >
+                            <a href="index.html#service"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Usługi</a
+                            >
+                            <a href="index.html#contact"
+                                ><i class="fas fa-angle-right me-2"></i> O
+                                Nas</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i> Warunki
+                                Korzystania z Usług</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Polityka Prywatności</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item-post d-flex flex-column">
+                            <h4 class="text-white mb-4">Popularne Posty</h4>
+                            <div class="d-flex flex-column mb-3">
+                                <p class="text-uppercase text-primary mb-2">
+                                    Inwestycje
+                                </p>
+                                <a href="index.html#blog" class="text-body"
+                                    >Jak Nasza Platforma Inwestycyjna Zmienia
+                                    Sposób Inwestowania</a
+                                >
+                            </div>
+                            <div class="d-flex flex-column mb-3">
+                                <p class="text-uppercase text-primary mb-2">
+                                    Biznes
+                                </p>
+                                <a href="index.html#blog" class="text-body"
+                                    >Korzyści z Rejestracji na Naszej Platformie
+                                    Inwestycyjnej</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Zgoda na Pliki Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Ta strona internetowa używa plików cookies, aby zapewnić Ci
+                    lepsze i bardziej odpowiednie doświadczenia podczas
+                    przeglądania witryny.
+                    <a href="#">Dowiedz się więcej...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Akceptuj</button>
+                <button class="cookie-button" id="declineBtn">Odrzuć</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
